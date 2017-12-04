@@ -1,0 +1,8 @@
+{
+  "name": "reminderApp",
+  "app_id": "3315e938",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
