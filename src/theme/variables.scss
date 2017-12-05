@@ -38,7 +38,9 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  calm:       #11c1f3,
+  assertive:  #ef473a
 );
 
 
@@ -72,6 +74,13 @@ $colors: (
 
 @import "ionic.theme.default";
 
+.button-calm{
+  background-color: color($colors,calm) !important;
+}
+
+.button-assertive{
+  background-color: color($colors,assertive) !important;
+}
 
 // Ionicons
 // --------------------------------------------------

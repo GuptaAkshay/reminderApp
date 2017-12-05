@@ -4,3 +4,29 @@ page-reminders {
 // ion-icon{
 //     color: color($colors,primary);
 // }
+
+.button-bar{
+    display: flex;
+    flex:1;
+    width: 100%;
+}
+.button-bar > .button{
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    padding: 0 16px;
+    width: 0;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.button-bar > .button:last-child {
+    border-right-width: 1px;
+    border-radius: 0px 4px 4px 0px;
+    
+}
+.button-bar > .button:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
