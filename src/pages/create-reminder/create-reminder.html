@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Create Reminder
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only solid>
+        <ion-icon name="trash"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3">
+  <div id="createReminder-container6">
+    <form id="createReminder-form1">
+      <ion-item id="createReminder-input1">
+        <ion-label>
+          Title
+        </ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="createReminder-textarea1">
+        <ion-label>
+          Description
+        </ion-label>
+        <ion-textarea placeholder=""></ion-textarea>
+      </ion-item>
+      <ion-item id="createReminder-input2">
+        <ion-label>
+          Notify At
+        </ion-label>
+        <ion-input type="time" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="createReminder-input3">
+        <ion-label>
+          Notify On
+        </ion-label>
+        <ion-input type="date" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="createReminder-select1">
+        <ion-label>
+          Category
+        </ion-label>
+        <ion-select name="">
+          <ion-option>
+            Birthday
+          </ion-option>
+          <ion-option>
+            Anniversery
+          </ion-option>
+          <ion-option>
+            Bill Payment
+          </ion-option>
+        </ion-select>
+      </ion-item>
+      <button id="createReminder-button1" ion-button color="positive" block icon-left>
+        <ion-icon name="add"></ion-icon>
+        Create
+      </button>
+    </form>
+  </div>
+</ion-content>
