@@ -6,92 +6,136 @@
     <ion-title>
       Reminders
     </ion-title>
-    <ion-buttons end>
-      <button ion-button icon-only solid>
-        <ion-icon ios="ios-add" md="md-add"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
 </ion-header>
-<ion-content padding id="page1">
+<ion-content padding-top id="page1">
   <ion-card id="reminders-card21">
     <ion-list>
-        <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card13"
+      <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card13"
         data-componentid="card21" data-tap-disabled="true">
-      <ion-item color="positive" id="reminders-list-item13">
-        <ion-thumbnail item-left>
-          <img src="assets/img/hJtSZJpQ5SJOqR6BlfaJ_birthday-cake.png" />
-        </ion-thumbnail>
-        <h2>
-          Akshay Birthday
-          <p style="white-space:normal;">11:59 PM Saturday 6 August  2018</p>
-          <ion-icon style="float: right;" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
-        </h2>
-      </ion-item>       
-        </a>     
-        <div class="button-bar">
-            <button class="button button-calm" ion-button icon-left>
-                <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
-                Snooze
-            </button>
-            <button class="button button-assertive" ion-button icon-left>
-                <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
-                Delete
-            </button>           
-        </div>
+        <ion-row>
+          <ion-col col-10>
+            <ion-item color="positive" id="reminders-list-item13">
+              <ion-thumbnail item-left>
+                <img src="assets/img/hJtSZJpQ5SJOqR6BlfaJ_birthday-cake.png" />
+              </ion-thumbnail>
+              <h2 text-wrap>Akshay Birthday</h2>
+              <small text-wrap class="text-muted">11:59 PM Saturday 6 August 2018</small>
+            </ion-item>
+          </ion-col>
+          <ion-col col-2>
+            <ion-icon class="center-middle" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </a>
+      <div class="button-bar">
+        <button class="button button-calm" ion-button icon-left>
+          <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
+          Snooze
+        </button>
+        <button class="button button-assertive" ion-button icon-left>
+          <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
+          Delete
+        </button>
+      </div>
     </ion-list>
   </ion-card>
   <ion-card id="reminders-card26">
     <ion-list>
-        <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card21"
-          data-componentid="card26" data-tap-disabled="true">
-      <ion-item color="positive" id="reminders-list-item21">
-        <ion-thumbnail item-left>
-          <img src="assets/img/nuqISFDMSmiun2I4MAmw_glasses-brindis-with-a-heart.png" />
-        </ion-thumbnail>
-        <h2>Parent's Anniversary
-          <p style="white-space:normal;">11:59 PM Saturday 6 August  2018</p>
-          <ion-icon style="float: right;" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
-        </h2>      
-      </ion-item>       
-      </a>     
+      <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card21"
+        data-componentid="card26" data-tap-disabled="true">
+        <ion-row>
+          <ion-col col-10>
+            <ion-item color="positive" id="reminders-list-item21">
+              <ion-thumbnail item-left>
+                <img src="assets/img/nuqISFDMSmiun2I4MAmw_glasses-brindis-with-a-heart.png" />
+              </ion-thumbnail>
+              <h2 text-wrap>Parent's Anniversary</h2>
+              <small text-wrap class="text-muted">11:59 PM Saturday 6 August 2018</small>
+            </ion-item>
+          </ion-col>
+          <ion-col col-2>
+            <ion-icon class="center-middle" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </a>
       <div class="button-bar">
-          <button class="button button-calm" ion-button icon-left>
-              <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
-              Snooze
-          </button>
-          <button class="button button-assertive" ion-button icon-left>
-              <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
-              Delete
-          </button>             
+        <button class="button button-calm" ion-button icon-left>
+          <ion-icon ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
+          Snooze
+        </button>
+        <button class="button button-assertive" ion-button icon-left>
+          <ion-icon ios="ios-trash-outline" md="md-trash"></ion-icon>
+          Delete
+        </button>
       </div>
     </ion-list>
   </ion-card>
   <ion-card id="reminders-card27">
     <ion-list>
-        <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card22"
+      <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card22"
         data-componentid="card27" data-tap-disabled="true">
-      <ion-item color="positive" id="reminders-list-item22">
-        <ion-thumbnail item-left>
-          <img src="assets/img/oheu5LiSQGJmHatDLvDU_receipt.png" />
-        </ion-thumbnail>
-        <h2>
-          Bill Payment
-          <p style="white-space:normal;">11:59 PM Saturday 6 August  2018</p>
-          <ion-icon style="float: right;" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
-        </h2>
-      </ion-item>
-        </a>
-        <div class="button-bar">
-            <button class="button button-calm" ion-button icon-left>
-                <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
-                Snooze
-            </button>
-            <button class="button button-assertive" ion-button icon-left>
-                <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
-                Delete
-            </button>            
-        </div>              
+        <ion-row>
+          <ion-col col-10>
+            <ion-item color="positive" id="reminders-list-item22">
+              <ion-thumbnail item-left>
+                <img src="assets/img/oheu5LiSQGJmHatDLvDU_receipt.png" />
+              </ion-thumbnail>
+              <h2 text-wrap>Bill Payment</h2>
+                <small text-wrap class="text-muted">11:59 PM Saturday 6 August 2018</small>
+            </ion-item>
+          </ion-col>
+          <ion-col col-2>
+            <ion-icon class="center-middle" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </a>
+      <div class="button-bar">
+        <button class="button button-calm" ion-button icon-left>
+          <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
+          Snooze
+        </button>
+        <button class="button button-assertive" ion-button icon-left>
+          <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
+          Delete
+        </button>
+      </div>
     </ion-list>
   </ion-card>
+  <ion-card id="reminders-card27">
+    <ion-list>
+      <a class="list card manual-card-fullwidth" style="display:block;text-decoration:none;" on-click="goToDetails()" id="reminders-card22"
+        data-componentid="card27" data-tap-disabled="true">
+        <ion-row>
+          <ion-col col-10>
+            <ion-item color="positive" id="reminders-list-item22">
+              <ion-thumbnail item-left>
+                <img src="assets/img/oheu5LiSQGJmHatDLvDU_receipt.png" />
+              </ion-thumbnail>
+              <h2 text-wrap>Bill Payment</h2>
+              <small text-wrap class="text-muted">11:59 PM Saturday 6 August 2018</small>
+            </ion-item>
+          </ion-col>
+          <ion-col col-2>
+            <ion-icon class="center-middle" ios="ios-arrow-dropright-circle" md="md-arrow-dropright-circle"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </a>
+      <div class="button-bar">
+        <button class="button button-calm" ion-button icon-left>
+          <ion-icon float-left ios="ios-notifications-outline" md="md-notifications-outline"></ion-icon>
+          Snooze
+        </button>
+        <button class="button button-assertive" ion-button icon-left>
+          <ion-icon float-left ios="ios-trash-outline" md="md-trash"></ion-icon>
+          Delete
+        </button>
+      </div>
+    </ion-list>
+  </ion-card>
+  <ion-fab right bottom>
+    <button ion-fab color="primary" (click)="goToCreateReminder()">
+      <ion-icon name="add"></ion-icon>
+    </button>
+  </ion-fab>
 </ion-content>

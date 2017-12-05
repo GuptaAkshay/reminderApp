@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { DetailsPage } from '../details/details';
+import { CreateReminderPage } from '../create-reminder/create-reminder';
 
 @Component({
   selector: 'page-reminders',
@@ -13,5 +14,9 @@ export class RemindersPage {
   goToDetails(params){
     if (!params) params = {};
     this.navCtrl.push(DetailsPage);
+  }
+  goToCreateReminder(params){
+    if (!params) params = {};
+    this.navCtrl.push(CreateReminderPage);
   }
 }

@@ -82,6 +82,21 @@ $colors: (
   background-color: color($colors,assertive) !important;
 }
 
+.text-muted{
+  color: #656b6e!important
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-italic {
+  font-style: italic;
+}
 // Ionicons
 // --------------------------------------------------
 // The premium icon font for Ionic. For more info, please see:

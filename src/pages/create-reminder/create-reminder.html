@@ -5,15 +5,10 @@
     </button>
     <ion-title>
       Create Reminder
-    </ion-title>
-    <ion-buttons end>
-      <button ion-button icon-only solid>
-        <ion-icon name="trash"></ion-icon>
-      </button>
-    </ion-buttons>
+    </ion-title>    
   </ion-navbar>
 </ion-header>
-<ion-content padding id="page3">
+<ion-content padding-top padding-right id="page3">
   <div id="createReminder-container6">
     <form id="createReminder-form1">
       <ion-item id="createReminder-input1">
@@ -56,10 +51,16 @@
           </ion-option>
         </ion-select>
       </ion-item>
-      <button id="createReminder-button1" ion-button color="positive" block icon-left>
+      <div margin >
+      <button  id="createReminder-button1" ion-button color="positive" block icon-left>
         <ion-icon name="add"></ion-icon>
         Create
       </button>
+      <button id="createReminder-button1" ion-button color="danger" block icon-left>
+          <ion-icon name="trash"></ion-icon>
+          Cancel
+        </button>
+    </div>
     </form>
   </div>
 </ion-content>
