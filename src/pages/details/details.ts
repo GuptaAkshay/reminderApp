@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { Reminder } from '../../models/reminder';
+import { NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-details',
@@ -7,7 +9,15 @@ import { NavController } from 'ionic-angular';
 })
 export class DetailsPage {
 
-  constructor(public navCtrl: NavController) {
+  reminder: Reminder
+
+  constructor(public navCtrl: NavController, private navParams: NavParams) {
+    console.log(navParams.data)
+    this.reminder = <Reminder>navParams.data;
+    console.log(this.reminder);
   }
+
+  
+
   
 }
